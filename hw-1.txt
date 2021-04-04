@@ -1,0 +1,25 @@
+Question 1
+For the first question in this assignment, enter the type of the Python expression 3.14159 below.  
+- Float
+
+Question 2
+An if statement can have how many elif parts?
+- Unlimited, i.e., 0 or more
+
+Question 3
+Consider the following Python code snippet:
+
+def clock_helper(total_seconds):
+    """
+    Helper function for a clock
+    """
+    seconds_in_minute = total_seconds % 60
+    
+Enter the value returned by Python after evaluating the expression clock_helper(90) below.    
+- None, The function has no return statement so it returns None by default.
+
+Question 4
+In Python, what character always appears at the end of the line before the start of an indented block of code?
+- :,  A colon signals Python that the next statement should be indented.
+
+Question 5
