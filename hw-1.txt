@@ -23,3 +23,128 @@ In Python, what character always appears at the end of the line before the start
 - :,  A colon signals Python that the next statement should be indented.
 
 Question 5
+Which of the following expressions returns the last character in the non-empty string my_string?
+- my_string[-1]
+
+Question 6
+What is the primary difference between a list and a tuple?
+- Lists are mutable. Tuples are immutable.
+
+Question 7
+Consider the following snippet of Python code.
+What is the value of val2[1] after executing this code?
+
+val1 = [1, 2, 3]
+val2 = val1[1:]
+val1[2] = 4
+
+- 3
+
+Question 8
+Which of the following Python expressions is a valid key in a Python dictionary?
+- False
+- ""
+- 0
+
+Question 9
+Write a function in Python that takes a list as input and repeatedly appends the sum of the last three elements of the list to the end of the list.  
+Your function should loop for 25 times.
+
+def appendsums(lst): 
+    """ 
+    Repeatedly append the sum of the current last three elements 
+    of lst to lst. 
+    """
+    for dummy in range(25):
+        sum = lst[-3] + lst[-2] + lst[-1]
+        lst.append(sum)
+        
+    return lst
+    
+sum_three = [0, 1, 2]
+appendsums(sum_three)
+print sum_three[10]
+
+Enter the value of sum_three[20]
+- 101902
+
+Question 10
+
+class BankAccount:
+    """ Class definition modeling the behavior of a simple bank account """
+
+    def __init__(self, initial_balance):
+        """Creates an account with the given balance."""
+        self._balance = initial_balance
+        self._fee = 0
+        
+    def deposit(self, amount):
+        """Deposits the amount into the account."""
+        self._balance += amount
+        
+    def withdraw(self, amount):
+        """
+        Withdraws the amount from the account. Each withdrawal resulting 
+        in a negative balance also deducts a penalty fee of 5 dollars
+        from the balance.
+        """
+        self._balance -= amount
+        
+        if self._balance < 0:
+            self._fee += 5
+            self._balance -= 5
+        
+    def get_balance(self):
+        """Returns the current balance in the account."""
+        return self._balance
+        
+    def get_fees(self):
+        """Returns the total fees ever deducted from the account."""
+        return self._fee
+        
+my_account = BankAccount(10)
+my_account.withdraw(5)
+my_account.deposit(10)
+my_account.withdraw(5)
+my_account.withdraw(15)
+my_account.deposit(20)
+my_account.withdraw(5)
+my_account.deposit(10)
+my_account.deposit(20)
+my_account.withdraw(15)
+my_account.deposit(30)
+my_account.withdraw(10)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.withdraw(50)
+my_account.deposit(30)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.withdraw(5)
+my_account.deposit(20)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.deposit(30)
+my_account.withdraw(25)
+my_account.withdraw(5)
+my_account.deposit(10)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.withdraw(10)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.deposit(30)
+my_account.withdraw(25)
+my_account.withdraw(10)
+my_account.deposit(20)
+my_account.deposit(10)
+my_account.withdraw(5)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.withdraw(5)
+my_account.withdraw(15)
+my_account.deposit(10)
+my_account.withdraw(5)
+print my_account.get_balance(), my_account.get_fees()
+
+- -60 76
