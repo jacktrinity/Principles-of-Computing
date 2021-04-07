@@ -1,7 +1,11 @@
 """
-Merge function for 2048 game.
+Week 1 Mini-Project of Principles of Computing
+CodeSkulptor: http://www.codeskulptor.org/#user48_IPfUrlgqCj_1.py
+
+Written in Python 2
 """
 
+# Merge function for 2048 game.
 def merge(line):
     """
     Function that merges a single row or column in 2048.
