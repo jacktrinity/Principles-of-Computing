@@ -1,0 +1,35 @@
+Question 1
+Consider the following Python function:
+
+def root (a, b, c):
+    discriminant = b ** 2 - 4 * a * c
+    return (-b - discriminant ** 0.5) / (2 * a)
+    
+- Quadratic Formula
+
+Question 2
+Which of the mathematical functions displayed below are linear?
+
+- g(y) = 2y - 3
+- h(z) = 3
+- f(x) = x + 10
+
+Question 3
+Compute the logarithm base 5 of root 7.
+- 3.5
+
+Question 4
+The significant figures of a number are those digits that carry meaning contributing to its precision. 
+A digit is significant based on the three following rules:
+
+1. All non-zero digits are considered significant.
+2. Zeros appearing anywhere between two non-zero digits are significant.
+3. Trailing zeros in a number containing a decimal point are significant.
+
+How many significant digits does the decimal number 0.00400100 have?
+- 6, The last two trailing zeroes are significant.
+
+Question 5
+The number aa is the mantissa while the integer bb is the exponent.  
+The mantissa is usually expressed using the same number of significant digits as used in the original decimal form.
+- a = 4.00100, The two trailing zero are significant in 0.00400100
