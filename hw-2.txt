@@ -33,3 +33,32 @@ Question 5
 The number aa is the mantissa while the integer bb is the exponent.  
 The mantissa is usually expressed using the same number of significant digits as used in the original decimal form.
 - a = 4.00100, The two trailing zero are significant in 0.00400100
+
+Question 6
+For this question, look up (or compute) the decimal representation of the number π and enter the value of π with five significant digits of precision in the box below.  
+Remember to round as describe above.
+- 3.1416
+
+Question 7
+Grids
+Consider the following code snippet:
+
+row = ...
+col = ...
+nested_list = [[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [10, 11, 12, 13, 14]]
+
+print nested_list[row][col]
+
+If running this code snippet prints 13 in the console, what are the non-negative values of row and col?
+- 2 3
+
+Question 8
+Given a grid of size 4 X 6, what are the row and column indices for the upper right cell in this grid? 
+Enter the row and columns indices below as numbers separated by a space.
+- 0 5
+
+Question 9
+Given a 4 X 4 grid, what values for start_cell and direction would cause traverse_grid to traverse the diagonal of grid connecting the lower right tile to the upper left tile?
+-
+start_cell = (3, 3)
+direction = (-1, -1)
