@@ -1,3 +1,9 @@
+"""
+Week 2 Mini-Project of Principles of Computing
+CodeSkulptor: http://www.codeskulptor.org/#user48_lrXfjBE5BNCwOY6.py
+
+Written in Python 2
+"""
 
 # Clone of 2048 game.
 
