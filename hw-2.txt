@@ -1,3 +1,5 @@
+Week 2 of "Principles of Computing"
+
 Question 1
 Consider the following Python function:
 
