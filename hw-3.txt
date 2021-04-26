@@ -1,3 +1,5 @@
+Week 3 of "Principles of Computing"
+
 Question 1
 Which term refers to the set of possible outcomes associated with a trial?
 - Sample Space
