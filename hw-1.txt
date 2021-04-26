@@ -1,3 +1,5 @@
+Week 1 of "Principles of Computing"
+
 Question 1
 For the first question in this assignment, enter the type of the Python expression 3.14159 below.  
 - Float
