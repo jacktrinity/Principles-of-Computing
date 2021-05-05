@@ -1,1 +1,26 @@
+Week 4 of "Principles of Computing"
 
+Question 1
+Given the set of outcomes corresponding to a coin flip, {Heads,Tails}, how many sequences of outcomes of length five (repetition allowed) are possible?
+- 32
+
+Question 2
+Consider a sequence of trials in which a fair four-sided die (with faces numbered 1-4) is rolled twice.  
+What is the expected value of the product of the two die rolls? 
+- 6.25
+
+Question 3
+Given a trial in which a decimal digit is selected from the list ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] with equal probability 0.1, 
+consider a five-digit string created by a sequence of such trials (leading zeros and repeated digits are allowed). 
+What is the probability that this five-digit string consists of five consecutive digits in either ascending or descending order?
+- 0.00012
+
+Question 4
+Consider a trial in which five digit strings are formed as permutations of the digits ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] 
+(In this case, repetition of digits is not allowed.) 
+If the probability of each permutation is the same, what is the probability that this five digits string consists of consecutive digits in either ascending or descending order?
+- 0.00039682539
+
+Question 5
+Implement a function gen_permutations(outcomes, num_trials) that takes a list of outcomes and a number of trials and returns a set of all possible permutations of length num_trials (encoded as tuples) from this set of outcomes.  
+- ('b', 'e', 'c', 'd')
