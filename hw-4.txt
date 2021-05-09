@@ -24,3 +24,24 @@ If the probability of each permutation is the same, what is the probability that
 Question 5
 Implement a function gen_permutations(outcomes, num_trials) that takes a list of outcomes and a number of trials and returns a set of all possible permutations of length num_trials (encoded as tuples) from this set of outcomes.  
 - ('b', 'e', 'c', 'd')
+
+Question 6
+A set S is a subset of another set T if every element x in S is also a member of T.
+Which of the following sets are subsets of the set {1, 2}?
+- {}
+- {1, 2}
+- {1}
+
+Question 7
+If the set T has n numbers, how many distinct sets S are subsets of T?
+- 2^n
+
+Question 8
+Given a standard 52 card deck of playing cards, what is the probability of being dealt a five card hand where all five cards are of the same suit?  
+- 0.001980792316926771
+
+Question 9
+Pascal's triangle is a triangular array of numbers in which the entry on one row of the triangle corresponds to the sum of the two entries directly above the entry.  
+This program prints out the first few rows of Pascal's triangle.   
+- m!/((m-n)!*n!)
+
